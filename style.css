@@ -1,0 +1,90 @@
+body{
+
+background-image: url(assets/cop.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-family: Poppins, sans-serif; 
+
+
+}
+
+.conteiner{
+
+    margin: auto;
+    border: 1px solid rgba(255, 252, 252, 0);
+    border-radius: 10px;
+    background-color: rgba(54, 54, 54, 0.808);
+    width: 700px;
+
+}
+
+.content{
+    margin-left: 3rem;
+    color: white;
+  
+}
+
+.input {
+    width: 580px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    
+}
+
+.number::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+
+}
+
+#subtitle{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: 800;
+
+}
+
+#radio{
+    position: relative;
+    margin-top: -15px;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+
+
+
+#check{
+    position: relative;
+    margin-top: -15px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.botao{
+    margin-left: 35px;
+    background-color: rgba(41, 187, 41, 0.692);
+    width: 250px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgba(255, 252, 252, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+textarea{
+    border: 1px solid rgba(255, 252, 252, 0);
+    border-radius: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CADASTRO COOP BEM VIVER</title>
+
+	<link href="style.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1>Pré-cadastro Cooperativa Bem Viver</h1>
+	<p id="subtitle">envie seus dados para avaliarmos sua candidatura</p>
+
+	<form method="POST" action="">
+
+		<div class="conteiner">
+					<div class="content">
+
+				<h2>Nome</h2>
+				<input class="input" type="text" name="nome" placeholder="Digite seu nome">
+
+				<h2>CPF</h2>
+				<input class="input number" type="number" name="cpf" placeholder="Digite seu CPF">
+
+				<h2>E-mail</h2>
+				<input class="input" type="email" name="email" placeholder="Digite seu E-mail">
+
+				<h2>Telefone</h2>
+				<input class="input number" type="tel" name="telefone" placeholder="Digite seu telefone (com DDD)">
+
+				<h2>Você é?</h2>
+				<select class="input" name="vinculo" >
+					<option>Selecione uma opção</option>
+					<option value="CLT">Trabalhador CLT</option>
+					<option value="FP">Funcionário Público</option>
+					<option value="AUT">Trabalhador informal / Autônomo</option>
+					<option value="DES">Desempregado</option>
+				</select>
+
+				<h2>Qual sua renda familiar?</h2>
+				<p id="radio">
+					<input type="radio" name="renda" value="rd1">Até 1200 reais<br>
+					<input type="radio" name="renda" value="rd2">Entre 1201 e 2000 reais <br>
+					<input type="radio" name="renda" value="rd3">Entre 2001 e 3000 reais <br>
+					<input type="radio" name="renda" value="rd4">Entre 3001 e 4000 reais <br>
+					<input type="radio" name="renda" value="rd5">Entre 4001 e 5000 reais <br>
+					<input type="radio" name="renda" value="rd6">Mais de 5001 reais
+				</p>
+			
+				<h2>O que você está procurando?</h2>
+				<p id="check">
+					<input type="checkbox" name="topicos" value="ck1">Vivência em comunidade <br>
+					<input type="checkbox" name="topicos" value="ck2">Conexão com a natureza <br>
+					<input type="checkbox" name="topicos" value="ck3">Casa Própria <br>
+					<input type="checkbox" name="topicos" value="ck4">Lazer <br>
+					<input type="checkbox" name="topicos" value="ck5">Segurança <br>
+				</p>
+
+				<H2>Conte-nos um pouco mais sobre você :)</H2>
+				<textarea style="resize: none;" name="comentario" cols="78" rows="5" placeholder=" Deixe aqui um comentário"></textarea> <br> <br>
+
+				<input class="botao" type="reset">
+				<input class="botao" type="submit">
+
+				<br><br>
+				
+
+
+
+			</div>
+		</div>
+
+	</form>	
+
+</body>
+</html>
